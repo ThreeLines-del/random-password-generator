@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1f29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  height: 400px;
+  width: 400px;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.inner-container {
+  width: 340px;
+}
+
+.title1 {
+  margin: 0;
+  color: white;
+}
+
+.title2 {
+  margin: 0;
+  color: #4adf86;
+  line-height: 0;
+  margin-top: 10px;
+}
+
+.title3 {
+  margin: 0;
+  font-weight: lighter;
+  color: white;
+  margin-top: 20px;
+}
+
+.generate-button {
+  font-size: small;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: #10b981;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+.generate-button:hover {
+  cursor: pointer;
+  background-color: #10b999;
+}
+
+hr {
+  border-color: #2f3e53;
+  border-style: solid;
+}
+
+.field-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.password-field {
+  background-color: #273549;
+  height: 30px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #55f991;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.password-field:hover {
+  cursor: pointer;
+}
+
+label {
+  color: white;
+  font-size: smaller;
+}

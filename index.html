@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-container">
+        <div class="inner-container">
+          <h1 class="title1">Generate a</h1>
+          <h1 class="title2">random password</h1>
+          <h4 class="title3">Never use an insecure password again.</h4>
+          <button onclick="generatePassword()" class="generate-button">
+            Generate passwords
+          </button>
+          <label>length</label>
+          <select id="password-length-selector">
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select>
+          <select id="number-symbols">
+            <option value="all">all</option>
+            <option value="no-symbols">no symbols</option>
+            <option value="no-numbers">no numbers</option>
+          </select>
+          <hr />
+          <div class="field-container">
+            <div
+              onclick="copy1()"
+              id="password1-el"
+              class="password-field"
+            ></div>
+            <div
+              onclick="copy2()"
+              id="password2-el"
+              class="password-field"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
